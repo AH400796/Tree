@@ -1,0 +1,16 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 100vh;
+  cursor: pointer;
+}
+
+.tree {
+  position: relative;
+  width: 15px;
+  height: 900px;
+  background-color: rgb(53, 33, 4);
+  border-radius: 170% 170% 0 0;
+}
