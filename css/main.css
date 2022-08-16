@@ -25,7 +25,7 @@
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  60% {
+  65% {
     background-color: green;
     border-color: rgb(26, 94, 17);
     opacity: 1;
@@ -40,14 +40,14 @@
             transform: scale(1);
   }
   85% {
-    background-color: rgb(255, 102, 0);
+    background-color: rgb(204, 131, 20);
     border-color: rgb(255, 102, 0);
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
   }
   100% {
-    background-color: rgb(255, 102, 0);
+    background-color: rgb(236, 106, 20);
     border-color: rgb(255, 102, 0);
     -webkit-transform: scale(0.3) translateY(-20%);
             transform: scale(0.3) translateY(-20%);
@@ -68,7 +68,7 @@
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  60% {
+  65% {
     background-color: green;
     border-color: rgb(26, 94, 17);
     opacity: 1;
@@ -83,14 +83,14 @@
             transform: scale(1);
   }
   85% {
-    background-color: rgb(255, 102, 0);
+    background-color: rgb(204, 131, 20);
     border-color: rgb(255, 102, 0);
     -webkit-transform: scale(1);
             transform: scale(1);
     opacity: 1;
   }
   100% {
-    background-color: rgb(255, 102, 0);
+    background-color: rgb(236, 106, 20);
     border-color: rgb(255, 102, 0);
     -webkit-transform: scale(0.3) translateY(-20%);
             transform: scale(0.3) translateY(-20%);
@@ -116,7 +116,7 @@
             transform: scale(1);
     opacity: 1;
   }
-  55% {
+  60% {
     opacity: 0;
   }
   100% {
@@ -142,7 +142,65 @@
             transform: scale(1);
     opacity: 1;
   }
-  55% {
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes berry {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  30% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes berry {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  30% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0;
+  }
+  60% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  80% {
     opacity: 0;
   }
   100% {
@@ -743,8 +801,8 @@
 }
 
 .leaf {
-  -webkit-animation-duration: 10000ms;
-          animation-duration: 10000ms;
+  -webkit-animation-duration: 12000ms;
+          animation-duration: 12000ms;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   -webkit-animation-iteration-count: 10;
@@ -858,13 +916,13 @@
   position: absolute;
   right: 20%;
   z-index: 2000;
-  width: 0;
-  height: 0;
+  width: 20px;
+  height: 20px;
 }
 
 .bloom {
-  -webkit-animation-duration: 10000ms;
-          animation-duration: 10000ms;
+  -webkit-animation-duration: 12000ms;
+          animation-duration: 12000ms;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   -webkit-animation-iteration-count: 10;
@@ -874,5 +932,68 @@
 .checkbox:checked + .wrap .bloom {
   -webkit-animation-name: bloom;
           animation-name: bloom;
+  display: block;
+}
+
+.berry {
+  position: absolute;
+  top: -55%;
+  left: 0;
+  z-index: 2000;
+  width: 20px;
+  height: 20px;
+  display: none;
+  opacity: 0;
+}
+
+.berry-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
+  background-color: rgb(124, 3, 3);
+  border-radius: 50%;
+  border: 1px solid #5a0101;
+}
+
+.berry-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 10px;
+  height: 8px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.berry-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-60%, -55%);
+          transform: translate(-60%, -55%);
+  width: 10px;
+  height: 10px;
+  background-color: rgb(124, 3, 3);
+  border-radius: 50%;
+}
+
+.berry {
+  -webkit-animation-duration: 12000ms;
+          animation-duration: 12000ms;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: 10;
+          animation-iteration-count: 10;
+}
+
+.checkbox:checked + .wrap .berry {
+  -webkit-animation-name: berry;
+          animation-name: berry;
   display: block;
 }/*# sourceMappingURL=main.css.map */
