@@ -1,3 +1,12 @@
+.bloom {
+  position: relative;
+  z-index: 1000;
+  display: none;
+  animation-duration: 12000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 10;
+}
+
 .bloom-center {
   position: absolute;
   top: 50%;
@@ -75,25 +84,12 @@
   border-radius: 50%;
   border: 1px solid #eec4f1;
 }
-
-.bloom {
-  position: relative;
-  z-index: 1000;
-  display: none;
-}
-
 .bloom__wrap {
   position: absolute;
   right: 20%;
   z-index: 2000;
   width: 20px;
   height: 20px;
-}
-
-.bloom {
-  animation-duration: 12000ms;
-  animation-timing-function: linear;
-  animation-iteration-count: 10;
 }
 
 .checkbox:checked + .wrap .bloom {

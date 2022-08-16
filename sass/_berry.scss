@@ -1,12 +1,15 @@
 .berry {
   position: absolute;
-  top: -55%;
-  left: 0;
+  top: 0%;
+  left: 50%;
   z-index: 2000;
-  width: 20px;
-  height: 20px;
+  width: 0;
+  height: 0;
   display: none;
   opacity: 0;
+  animation-duration: 12000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 10;
 }
 
 .berry-1 {
@@ -14,11 +17,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 15px;
-  height: 15px;
-  background-color: rgb(124, 3, 3);
+  width: 23px;
+  height: 20px;
+  background-color: rgb(27, 1, 75);
   border-radius: 50%;
-  border: 1px solid #5a0101;
+  border: 1px solid rgb(27, 1, 75);
 }
 
 .berry-2 {
@@ -38,16 +41,9 @@
   transform: translate(-60%, -55%);
   width: 10px;
   height: 10px;
-  background-color: rgb(124, 3, 3);
+  background-color: rgb(27, 1, 75);
   border-radius: 50%;
 }
-
-.berry {
-  animation-duration: 12000ms;
-  animation-timing-function: linear;
-  animation-iteration-count: 10;
-}
-
 .checkbox:checked + .wrap .berry {
   animation-name: berry;
   display: block;
