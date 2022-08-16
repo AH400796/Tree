@@ -21,28 +21,31 @@
             transform-origin: right;
   }
   30% {
-    background-color: green;
+    background-image: -webkit-gradient(linear, right top, left top, from(rgb(26, 94, 17)), to(rgb(35, 151, 20)));
+    background-image: linear-gradient(to left, rgb(26, 94, 17), rgb(35, 151, 20));
     border-color: rgb(26, 94, 17);
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   70% {
-    background-color: green;
+    background-image: -webkit-gradient(linear, right top, left top, from(rgb(26, 94, 17)), to(rgb(35, 151, 20)));
+    background-image: linear-gradient(to left, rgb(26, 94, 17), rgb(35, 151, 20));
     border-color: rgb(26, 94, 17);
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   80% {
-    background-color: rgb(216, 188, 30);
+    background-image: -webkit-gradient(linear, right top, left top, from(rgb(209, 183, 38)), to(rgb(204, 131, 20)));
+    background-image: linear-gradient(to left, rgb(209, 183, 38), rgb(204, 131, 20));
     border-color: rgb(255, 102, 0);
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   90% {
-    background-color: rgb(204, 131, 20);
+    bbackground-image: linear-gradient(to left, rgb(204, 131, 20), rgb(236, 106, 20));
     border-color: rgb(255, 102, 0);
     -webkit-transform: scale(1);
             transform: scale(1);
@@ -66,28 +69,31 @@
             transform-origin: right;
   }
   30% {
-    background-color: green;
+    background-image: -webkit-gradient(linear, right top, left top, from(rgb(26, 94, 17)), to(rgb(35, 151, 20)));
+    background-image: linear-gradient(to left, rgb(26, 94, 17), rgb(35, 151, 20));
     border-color: rgb(26, 94, 17);
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   70% {
-    background-color: green;
+    background-image: -webkit-gradient(linear, right top, left top, from(rgb(26, 94, 17)), to(rgb(35, 151, 20)));
+    background-image: linear-gradient(to left, rgb(26, 94, 17), rgb(35, 151, 20));
     border-color: rgb(26, 94, 17);
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   80% {
-    background-color: rgb(216, 188, 30);
+    background-image: -webkit-gradient(linear, right top, left top, from(rgb(209, 183, 38)), to(rgb(204, 131, 20)));
+    background-image: linear-gradient(to left, rgb(209, 183, 38), rgb(204, 131, 20));
     border-color: rgb(255, 102, 0);
     opacity: 1;
     -webkit-transform: scale(1);
             transform: scale(1);
   }
   90% {
-    background-color: rgb(204, 131, 20);
+    bbackground-image: linear-gradient(to left, rgb(204, 131, 20), rgb(236, 106, 20));
     border-color: rgb(255, 102, 0);
     -webkit-transform: scale(1);
             transform: scale(1);
@@ -211,6 +217,50 @@
     opacity: 0;
   }
 }
+@-webkit-keyframes weather {
+  0% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(27, 85, 22)), color-stop(rgb(229, 233, 229)), to(rgb(19, 107, 107)));
+    background-image: linear-gradient(to top, rgb(27, 85, 22), rgb(229, 233, 229), rgb(19, 107, 107));
+  }
+  30% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(40, 121, 32)), color-stop(rgb(229, 233, 229)), to(rgb(57, 154, 199)));
+    background-image: linear-gradient(to top, rgb(40, 121, 32), rgb(229, 233, 229), rgb(57, 154, 199));
+  }
+  60% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(44, 143, 35)), color-stop(rgb(229, 233, 229)), to(rgb(87, 181, 224)));
+    background-image: linear-gradient(to top, rgb(44, 143, 35), rgb(229, 233, 229), rgb(87, 181, 224));
+  }
+  78% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(107, 128, 33)), color-stop(rgb(229, 233, 229)), to(rgb(19, 107, 107)));
+    background-image: linear-gradient(to top, rgb(107, 128, 33), rgb(229, 233, 229), rgb(19, 107, 107));
+  }
+  100% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(81, 95, 29)), color-stop(rgb(229, 233, 229)), to(rgb(62, 94, 94)));
+    background-image: linear-gradient(to top, rgb(81, 95, 29), rgb(229, 233, 229), rgb(62, 94, 94));
+  }
+}
+@keyframes weather {
+  0% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(27, 85, 22)), color-stop(rgb(229, 233, 229)), to(rgb(19, 107, 107)));
+    background-image: linear-gradient(to top, rgb(27, 85, 22), rgb(229, 233, 229), rgb(19, 107, 107));
+  }
+  30% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(40, 121, 32)), color-stop(rgb(229, 233, 229)), to(rgb(57, 154, 199)));
+    background-image: linear-gradient(to top, rgb(40, 121, 32), rgb(229, 233, 229), rgb(57, 154, 199));
+  }
+  60% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(44, 143, 35)), color-stop(rgb(229, 233, 229)), to(rgb(87, 181, 224)));
+    background-image: linear-gradient(to top, rgb(44, 143, 35), rgb(229, 233, 229), rgb(87, 181, 224));
+  }
+  78% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(107, 128, 33)), color-stop(rgb(229, 233, 229)), to(rgb(19, 107, 107)));
+    background-image: linear-gradient(to top, rgb(107, 128, 33), rgb(229, 233, 229), rgb(19, 107, 107));
+  }
+  100% {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(81, 95, 29)), color-stop(rgb(229, 233, 229)), to(rgb(62, 94, 94)));
+    background-image: linear-gradient(to top, rgb(81, 95, 29), rgb(229, 233, 229), rgb(62, 94, 94));
+  }
+}
 .wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -227,6 +277,14 @@
           align-items: center;
   height: 100vh;
   cursor: pointer;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgb(27, 85, 22)), color-stop(rgb(229, 233, 229)), to(rgb(19, 107, 107)));
+  background-image: linear-gradient(to top, rgb(27, 85, 22), rgb(229, 233, 229), rgb(19, 107, 107));
+  -webkit-animation-duration: 12000ms;
+          animation-duration: 12000ms;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: 10;
+          animation-iteration-count: 10;
 }
 
 .tree {
@@ -235,6 +293,11 @@
   height: 900px;
   background-color: rgb(53, 33, 4);
   border-radius: 170% 170% 0 0;
+}
+
+.checkbox:checked + .wrap {
+  -webkit-animation-name: weather;
+          animation-name: weather;
 }
 
 .branch-1R {
@@ -314,7 +377,7 @@
 
 .branch-2R {
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   bottom: 500px;
   right: 5px;
   width: 200px;

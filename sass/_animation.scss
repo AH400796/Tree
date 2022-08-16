@@ -6,27 +6,43 @@
   }
 
   30% {
-    background-color: green;
+    background-image: linear-gradient(
+      to left,
+      rgb(26, 94, 17),
+      rgb(35, 151, 20)
+    );
     border-color: rgb(26, 94, 17);
     opacity: 1;
     transform: scale(1);
   }
   70% {
-    background-color: green;
+    background-image: linear-gradient(
+      to left,
+      rgb(26, 94, 17),
+      rgb(35, 151, 20)
+    );
     border-color: rgb(26, 94, 17);
     opacity: 1;
     transform: scale(1);
   }
 
   80% {
-    background-color: rgb(216, 188, 30);
+    background-image: linear-gradient(
+      to left,
+      rgb(209, 183, 38),
+      rgb(204, 131, 20)
+    );
     border-color: rgb(255, 102, 0);
     opacity: 1;
     transform: scale(1);
   }
 
   90% {
-    background-color: rgb(204, 131, 20);
+    bbackground-image: linear-gradient(
+      to left,
+      rgb(204, 131, 20),
+      rgb(236, 106, 20)
+    );
     border-color: rgb(255, 102, 0);
     transform: scale(1);
     opacity: 1;
@@ -91,5 +107,53 @@
 
   100% {
     opacity: 0;
+  }
+}
+
+@keyframes weather {
+  0% {
+    background-image: linear-gradient(
+      to top,
+      rgb(27, 85, 22),
+      rgb(229, 233, 229),
+      rgb(19, 107, 107)
+    );
+  }
+  30% {
+    background-image: linear-gradient(
+      to top,
+      rgb(40, 121, 32),
+      rgb(229, 233, 229),
+      rgb(57, 154, 199)
+    );
+  }
+  60% {
+    background-image: linear-gradient(
+      to top,
+      rgb(44, 143, 35),
+      rgb(229, 233, 229),
+      rgb(87, 181, 224)
+    );
+  }
+
+  75% {
+  }
+
+  78% {
+    background-image: linear-gradient(
+      to top,
+      rgb(107, 128, 33),
+      rgb(229, 233, 229),
+      rgb(19, 107, 107)
+    );
+  }
+
+  100% {
+    background-image: linear-gradient(
+      to top,
+      rgb(81, 95, 29),
+      rgb(229, 233, 229),
+      rgb(62, 94, 94)
+    );
   }
 }
