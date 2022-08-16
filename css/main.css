@@ -17,6 +17,8 @@
     opacity: 0;
     -webkit-transform: scale(0.1);
             transform: scale(0.1);
+    -webkit-transform-origin: right;
+            transform-origin: right;
   }
   30% {
     background-color: green;
@@ -60,6 +62,8 @@
     opacity: 0;
     -webkit-transform: scale(0.1);
             transform: scale(0.1);
+    -webkit-transform-origin: right;
+            transform-origin: right;
   }
   30% {
     background-color: green;
@@ -171,7 +175,7 @@
   75% {
     opacity: 1;
   }
-  85% {
+  78% {
     opacity: 0;
   }
   100% {
@@ -200,7 +204,7 @@
   75% {
     opacity: 1;
   }
-  85% {
+  78% {
     opacity: 0;
   }
   100% {
@@ -310,7 +314,7 @@
 
 .branch-2R {
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   bottom: 500px;
   right: 5px;
   width: 200px;
@@ -360,7 +364,7 @@
 }
 .branch-2R-4L {
   position: absolute;
-  z-index: -10;
+  z-index: 0;
   bottom: -10px;
   right: 75px;
   width: 40px;
@@ -373,7 +377,7 @@
 .branch-2R-5L {
   position: absolute;
   z-index: 0;
-  bottom: -5px;
+  bottom: -8px;
   right: 140px;
   width: 25px;
   height: 4px;

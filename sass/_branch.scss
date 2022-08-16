@@ -70,7 +70,7 @@
 // branch-2R
 .branch-2R {
   position: absolute;
-  z-index: 0;
+  z-index: -1;
   bottom: 500px;
   right: 5px;
   width: 200px;
@@ -115,7 +115,7 @@
   }
   &-4L {
     position: absolute;
-    z-index: -10;
+    z-index: 0;
     bottom: -10px;
     right: 75px;
     width: 40px;
@@ -127,7 +127,7 @@
   &-5L {
     position: absolute;
     z-index: 0;
-    bottom: -5px;
+    bottom: -8px;
     right: 140px;
     width: 25px;
     height: 4px;
