@@ -1,0 +1,89 @@
+.leaf {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  right: -3px;
+  top: 3px;
+  z-index: 0;
+  background-color: green;
+  width: 35px;
+  height: 30px;
+  border: 1px solid rgb(26, 94, 17);
+  border-radius: 50% 0 50% 0;
+}
+
+.leaf__wrap {
+  position: absolute;
+  z-index: 100;
+  top: 20px;
+  left: 10px;
+  width: 0px;
+  height: 0px;
+  transform: rotate(190deg);
+}
+
+.leaf__wrap-1 {
+  position: absolute;
+  z-index: 100;
+  right: 50%;
+  top: 3px;
+  width: 0px;
+  height: 0px;
+  transform: rotate(-70deg);
+}
+.leaf__wrap-2 {
+  position: absolute;
+  z-index: 100;
+  right: 10%;
+  top: 3px;
+  width: 0px;
+  height: 0px;
+  transform: rotate(170deg);
+}
+.leaf__wrap-3 {
+  position: absolute;
+  z-index: 100;
+  right: 35%;
+  top: 3px;
+  width: 0px;
+  height: 0px;
+  transform: rotate(-200deg);
+}
+.leaf__wrap-4 {
+  position: absolute;
+  z-index: 100;
+  right: 20%;
+  top: 3px;
+  width: 0px;
+  height: 0px;
+  transform: rotate(-80deg);
+}
+.leaf__wrap-5 {
+  position: absolute;
+  z-index: 100;
+  right: 20%;
+  top: 3px;
+  width: 0px;
+  height: 0px;
+  transform: rotate(0deg);
+}
+.leaf__wrap-6 {
+  position: absolute;
+  z-index: 100;
+  right: 20%;
+  top: 3px;
+  width: 0px;
+  height: 0px;
+  transform: rotate(150deg);
+}
+
+.leaf {
+  animation-duration: 10000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 10;
+}
+
+.checkbox:checked + .wrap .leaf {
+  animation-name: leaf;
+  display: block;
+}
